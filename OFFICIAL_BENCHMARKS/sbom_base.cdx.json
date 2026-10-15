@@ -1,0 +1,417 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:963518a1-c43c-5a8c-a845-36f59b199e13",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T15:26:32Z",
+    "component": {
+      "type": "application",
+      "name": "FABRIC_JS",
+      "version": "39471c7a379c",
+      "bom-ref": "pkg:generic/anticloud/FABRIC_JS@39471c7a379c",
+      "purl": "pkg:generic/anticloud/FABRIC_JS@39471c7a379c",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "39471c7a379c08347841f4282dd3940b49ed4c71"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/fabricjs/fabric.js.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@fabricjs/aligning-guidelines",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@fabricjs/aligning-guidelines@workspace:^",
+      "bom-ref": "npm/@fabricjs/aligning-guidelines@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@fabricjs/browser",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@fabricjs/browser@workspace:^",
+      "bom-ref": "npm/@fabricjs/browser@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@fabricjs/cropping-controls",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@fabricjs/cropping-controls@workspace:^",
+      "bom-ref": "npm/@fabricjs/cropping-controls@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@fabricjs/data-updaters",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@fabricjs/data-updaters@workspace:^",
+      "bom-ref": "npm/@fabricjs/data-updaters@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@fabricjs/gradient-controls",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@fabricjs/gradient-controls@workspace:^",
+      "bom-ref": "npm/@fabricjs/gradient-controls@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@fabricjs/westures-integration",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@fabricjs/westures-integration@workspace:^",
+      "bom-ref": "npm/@fabricjs/westures-integration@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "10.0.1",
+      "purl": "pkg:npm/@eslint/js@10.0.1",
+      "bom-ref": "npm/@eslint/js@10.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@playwright/test",
+      "version": "catalog:",
+      "purl": "pkg:npm/@playwright/test@catalog:",
+      "bom-ref": "npm/@playwright/test@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@types/jsdom",
+      "version": "catalog:",
+      "purl": "pkg:npm/@types/jsdom@catalog:",
+      "bom-ref": "npm/@types/jsdom@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@types/micromatch",
+      "version": "4.0.10",
+      "purl": "pkg:npm/@types/micromatch@4.0.10",
+      "bom-ref": "npm/@types/micromatch@4.0.10"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "catalog:",
+      "purl": "pkg:npm/@types/node@catalog:",
+      "bom-ref": "npm/@types/node@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@vitest/browser-playwright",
+      "version": "5.0.1",
+      "purl": "pkg:npm/@vitest/browser-playwright@5.0.1",
+      "bom-ref": "npm/@vitest/browser-playwright@5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@vitest/coverage-v8",
+      "version": "5.0.1",
+      "purl": "pkg:npm/@vitest/coverage-v8@5.0.1",
+      "bom-ref": "npm/@vitest/coverage-v8@5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@vitest/ui",
+      "version": "5.0.1",
+      "purl": "pkg:npm/@vitest/ui@5.0.1",
+      "bom-ref": "npm/@vitest/ui@5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "commander",
+      "version": "15.0.0",
+      "purl": "pkg:npm/commander@15.0.0",
+      "bom-ref": "npm/commander@15.0.0"
+    },
+    {
+      "type": "library",
+      "name": "es-toolkit",
+      "version": "1.52.0",
+      "purl": "pkg:npm/es-toolkit@1.52.0",
+      "bom-ref": "npm/es-toolkit@1.52.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "10.11.0",
+      "purl": "pkg:npm/eslint@10.11.0",
+      "bom-ref": "npm/eslint@10.11.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-prettier",
+      "version": "10.1.8",
+      "purl": "pkg:npm/eslint-config-prettier@10.1.8",
+      "bom-ref": "npm/eslint-config-prettier@10.1.8"
+    },
+    {
+      "type": "library",
+      "name": "husky",
+      "version": "9.1.7",
+      "purl": "pkg:npm/husky@9.1.7",
+      "bom-ref": "npm/husky@9.1.7"
+    },
+    {
+      "type": "library",
+      "name": "lint-staged",
+      "version": "17.5.1",
+      "purl": "pkg:npm/lint-staged@17.5.1",
+      "bom-ref": "npm/lint-staged@17.5.1"
+    },
+    {
+      "type": "library",
+      "name": "micromatch",
+      "version": "4.0.8",
+      "purl": "pkg:npm/micromatch@4.0.8",
+      "bom-ref": "npm/micromatch@4.0.8"
+    },
+    {
+      "type": "library",
+      "name": "oxfmt",
+      "version": "0.68.0",
+      "purl": "pkg:npm/oxfmt@0.68.0",
+      "bom-ref": "npm/oxfmt@0.68.0"
+    },
+    {
+      "type": "library",
+      "name": "rolldown",
+      "version": "1.2.9",
+      "purl": "pkg:npm/rolldown@1.2.9",
+      "bom-ref": "npm/rolldown@1.2.9"
+    },
+    {
+      "type": "library",
+      "name": "tsc-files",
+      "version": "1.1.4",
+      "purl": "pkg:npm/tsc-files@1.1.4",
+      "bom-ref": "npm/tsc-files@1.1.4"
+    },
+    {
+      "type": "library",
+      "name": "typedoc",
+      "version": "catalog:",
+      "purl": "pkg:npm/typedoc@catalog:",
+      "bom-ref": "npm/typedoc@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "catalog:",
+      "purl": "pkg:npm/typescript@catalog:",
+      "bom-ref": "npm/typescript@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint",
+      "version": "8.70.0",
+      "purl": "pkg:npm/typescript-eslint@8.70.0",
+      "bom-ref": "npm/typescript-eslint@8.70.0"
+    },
+    {
+      "type": "library",
+      "name": "vitest",
+      "version": "5.0.1",
+      "purl": "pkg:npm/vitest@5.0.1",
+      "bom-ref": "npm/vitest@5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "westures",
+      "version": "catalog:",
+      "purl": "pkg:npm/westures@catalog:",
+      "bom-ref": "npm/westures@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@fabricjs/node",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@fabricjs/node@workspace:^",
+      "bom-ref": "npm/@fabricjs/node@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "@fabricjs/core",
+      "version": "workspace:^",
+      "purl": "pkg:npm/@fabricjs/core@workspace:^",
+      "bom-ref": "npm/@fabricjs/core@workspace:^"
+    },
+    {
+      "type": "library",
+      "name": "fabric",
+      "version": "workspace:*",
+      "purl": "pkg:npm/fabric@workspace:*",
+      "bom-ref": "npm/fabric@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "8.3.1",
+      "purl": "pkg:npm/vite@8.3.1",
+      "bom-ref": "npm/vite@8.3.1"
+    },
+    {
+      "type": "library",
+      "name": "canvas",
+      "version": "catalog:",
+      "purl": "pkg:npm/canvas@catalog:",
+      "bom-ref": "npm/canvas@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "jsdom",
+      "version": "catalog:",
+      "purl": "pkg:npm/jsdom@catalog:",
+      "bom-ref": "npm/jsdom@catalog:"
+    },
+    {
+      "type": "library",
+      "name": "@astrojs/check",
+      "version": "0.9.10",
+      "purl": "pkg:npm/@astrojs/check@0.9.10",
+      "bom-ref": "npm/@astrojs/check@0.9.10"
+    },
+    {
+      "type": "library",
+      "name": "@astrojs/mdx",
+      "version": "8.0.2",
+      "purl": "pkg:npm/@astrojs/mdx@8.0.2",
+      "bom-ref": "npm/@astrojs/mdx@8.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@astrojs/react",
+      "version": "7.0.0",
+      "purl": "pkg:npm/@astrojs/react@7.0.0",
+      "bom-ref": "npm/@astrojs/react@7.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@astrojs/sitemap",
+      "version": "3.7.4",
+      "purl": "pkg:npm/@astrojs/sitemap@3.7.4",
+      "bom-ref": "npm/@astrojs/sitemap@3.7.4"
+    },
+    {
+      "type": "library",
+      "name": "@astrojs/starlight",
+      "version": "0.42.4",
+      "purl": "pkg:npm/@astrojs/starlight@0.42.4",
+      "bom-ref": "npm/@astrojs/starlight@0.42.4"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-javascript",
+      "version": "6.2.5",
+      "purl": "pkg:npm/@codemirror/lang-javascript@6.2.5",
+      "bom-ref": "npm/@codemirror/lang-javascript@6.2.5"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/state",
+      "version": "6.7.1",
+      "purl": "pkg:npm/@codemirror/state@6.7.1",
+      "bom-ref": "npm/@codemirror/state@6.7.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "19.3.0",
+      "purl": "pkg:npm/@types/react@19.3.0",
+      "bom-ref": "npm/@types/react@19.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "purl": "pkg:npm/@types/react-dom@19.3.0",
+      "bom-ref": "npm/@types/react-dom@19.3.0"
+    },
+    {
+      "type": "library",
+      "name": "astro",
+      "version": "7.3.5",
+      "purl": "pkg:npm/astro@7.3.5",
+      "bom-ref": "npm/astro@7.3.5"
+    },
+    {
+      "type": "library",
+      "name": "codemirror",
+      "version": "6.0.2",
+      "purl": "pkg:npm/codemirror@6.0.2",
+      "bom-ref": "npm/codemirror@6.0.2"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "3.9.6",
+      "purl": "pkg:npm/prettier@3.9.6",
+      "bom-ref": "npm/prettier@3.9.6"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "19.2.8",
+      "purl": "pkg:npm/react@19.2.8",
+      "bom-ref": "npm/react@19.2.8"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "19.2.8",
+      "purl": "pkg:npm/react-dom@19.2.8",
+      "bom-ref": "npm/react-dom@19.2.8"
+    },
+    {
+      "type": "library",
+      "name": "sharp",
+      "version": "0.35.4",
+      "purl": "pkg:npm/sharp@0.35.4",
+      "bom-ref": "npm/sharp@0.35.4"
+    },
+    {
+      "type": "library",
+      "name": "starlight-typedoc",
+      "version": "0.23.1",
+      "purl": "pkg:npm/starlight-typedoc@0.23.1",
+      "bom-ref": "npm/starlight-typedoc@0.23.1"
+    },
+    {
+      "type": "library",
+      "name": "thememirror",
+      "version": "2.0.1",
+      "purl": "pkg:npm/thememirror@2.0.1",
+      "bom-ref": "npm/thememirror@2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "typedoc-plugin-no-inherit",
+      "version": "1.6.1",
+      "purl": "pkg:npm/typedoc-plugin-no-inherit@1.6.1",
+      "bom-ref": "npm/typedoc-plugin-no-inherit@1.6.1"
+    },
+    {
+      "type": "library",
+      "name": "typedoc-plugin-markdown",
+      "version": "4.13.1",
+      "purl": "pkg:npm/typedoc-plugin-markdown@4.13.1",
+      "bom-ref": "npm/typedoc-plugin-markdown@4.13.1"
+    }
+  ]
+}

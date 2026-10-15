@@ -1,0 +1,1548 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "FABRIC_JS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CLOTHING_MANUFACTURING\\FABRIC_JS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "39471c7a379c08347841f4282dd3940b49ed4c71",
+      "url": "https://github.com/fabricjs/fabric.js.git",
+      "branch": "master",
+      "committed_at": "2026-10-03T20:35:30+02:00"
+    }
+  },
+  "metrics": {
+    "files_total": 1063,
+    "source_files_scanned": 444,
+    "lines_of_code": 93537,
+    "languages": {
+      ".ts": 404,
+      ".svg": 233,
+      ".png": 171,
+      ".js": 29,
+      ".md": 27,
+      ".astro": 26,
+      ".mdx": 24,
+      ".json": 23,
+      ".yml": 20,
+      ".mjs": 18,
+      ".css": 18,
+      ".snap": 17,
+      "(none)": 12,
+      ".jsx": 11,
+      ".jpg": 8
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 79,
+    "unique": 54,
+    "by_ecosystem": {
+      "npm": 79
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/aligning-guidelines",
+        "version": "workspace:^",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/browser",
+        "version": "workspace:^",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/cropping-controls",
+        "version": "workspace:^",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/data-updaters",
+        "version": "workspace:^",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/gradient-controls",
+        "version": "workspace:^",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/westures-integration",
+        "version": "workspace:^",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@eslint/js",
+        "version": "10.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@playwright/test",
+        "version": "catalog:",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/jsdom",
+        "version": "catalog:",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/micromatch",
+        "version": "4.0.10",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "catalog:",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitest/browser-playwright",
+        "version": "5.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitest/coverage-v8",
+        "version": "5.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitest/ui",
+        "version": "5.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "commander",
+        "version": "15.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "es-toolkit",
+        "version": "1.52.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "10.11.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "10.1.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "husky",
+        "version": "9.1.7",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lint-staged",
+        "version": "17.5.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "micromatch",
+        "version": "4.0.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "oxfmt",
+        "version": "0.68.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "rolldown",
+        "version": "1.2.9",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tsc-files",
+        "version": "1.1.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typedoc",
+        "version": "catalog:",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "catalog:",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript-eslint",
+        "version": "8.70.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "5.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "westures",
+        "version": "catalog:",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/node",
+        "version": "workspace:^",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "source_file": "packages/aligning-guidelines/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "source_file": "packages/browser/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "source_file": "packages/cropping-controls/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "source_file": "packages/data-updaters/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/aligning-guidelines",
+        "version": "workspace:^",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/browser",
+        "version": "workspace:^",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/cropping-controls",
+        "version": "workspace:^",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/data-updaters",
+        "version": "workspace:^",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/gradient-controls",
+        "version": "workspace:^",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/node",
+        "version": "workspace:^",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fabric",
+        "version": "workspace:*",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@playwright/test",
+        "version": "catalog:",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "catalog:",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "catalog:",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "8.3.1",
+        "source_file": "packages/e2e/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "source_file": "packages/gradient-controls/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "source_file": "packages/node/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "canvas",
+        "version": "catalog:",
+        "source_file": "packages/node/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jsdom",
+        "version": "catalog:",
+        "source_file": "packages/node/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@astrojs/check",
+        "version": "0.9.10",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@astrojs/mdx",
+        "version": "8.0.2",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@astrojs/react",
+        "version": "7.0.0",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@astrojs/sitemap",
+        "version": "3.7.4",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@astrojs/starlight",
+        "version": "0.42.4",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-javascript",
+        "version": "6.2.5",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/state",
+        "version": "6.7.1",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/jsdom",
+        "version": "catalog:",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "catalog:",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react",
+        "version": "19.3.0",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react-dom",
+        "version": "19.3.0",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "astro",
+        "version": "7.3.5",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "canvas",
+        "version": "catalog:",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "codemirror",
+        "version": "6.0.2",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fabric",
+        "version": "workspace:*",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jsdom",
+        "version": "catalog:",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "3.9.6",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "19.2.8",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-dom",
+        "version": "19.2.8",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sharp",
+        "version": "0.35.4",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "starlight-typedoc",
+        "version": "0.23.1",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "thememirror",
+        "version": "2.0.1",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typedoc-plugin-no-inherit",
+        "version": "1.6.1",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "catalog:",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typedoc",
+        "version": "catalog:",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typedoc-plugin-markdown",
+        "version": "4.13.1",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "westures",
+        "version": "catalog:",
+        "source_file": "packages/website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "source_file": "packages/westures-integration/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "westures",
+        "version": "catalog:",
+        "source_file": "packages/westures-integration/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 128,
+    "files_with_findings": 100,
+    "severity": {
+      "high": 8,
+      "medium": 1,
+      "low": 119
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 8,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "dist-extensions/fabric-extensions.min.js",
+            "line": 1,
+            "cwe": "CWE-89",
+            "snippet": "(function(e,t){typeof exports==`object`&&typeof module<`u`?t(exports,require(\"fabric\"),require(\"westures\")):typeof define==`function`&&define.amd?define([`exports`,`fabric`,`westur"
+          },
+          {
+            "severity": "high",
+            "file": "packages/core/src/Shadow.ts",
+            "line": 134,
+            "cwe": "CWE-95",
+            "snippet": "reOffsetsAndBlur.exec(shadowStr) || []"
+          },
+          {
+            "severity": "high",
+            "file": "packages/core/src/controls/Control-handlers.spec.ts",
+            "line": 241,
+            "cwe": "CWE-95",
+            "snippet": "exec(new Point());"
+          },
+          {
+            "severity": "high",
+            "file": "packages/core/src/parser/elements_parser.ts",
+            "line": 121,
+            "cwe": "CWE-95",
+            "snippet": "const id = regex.exec(value)![1];"
+          },
+          {
+            "severity": "high",
+            "file": "packages/core/src/parser/parseTransformAttribute.ts",
+            "line": 55,
+            "cwe": "CWE-95",
+            "snippet": "const transformMatch = reTransform.exec(match[0]);"
+          },
+          {
+            "severity": "high",
+            "file": "packages/core/src/util/misc/svgParsing.ts",
+            "line": 56,
+            "cwe": "CWE-95",
+            "snippet": "const unit = /\\D{0,2}$/.exec(value),"
+          },
+          {
+            "severity": "high",
+            "file": "packages/core/src/util/path/index.ts",
+            "line": 881,
+            "cwe": "CWE-95",
+            "snippet": "while ((out = regExpArcCommandPoints.exec(matchStr))) {"
+          },
+          {
+            "severity": "high",
+            "file": "packages/website/src/components/CodeEditor/index.jsx",
+            "line": 58,
+            "cwe": "CWE-95",
+            "snippet": "eval([...preamble, exec].join('\\n'))"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 70,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "lib/event.js",
+            "line": 465,
+            "cwe": "CWE-",
+            "snippet": "// TODO: fix Firefox for the general case."
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/ClassRegistry.ts",
+            "line": 45,
+            "cwe": "CWE-",
+            "snippet": "// @TODO: needs to be removed in fabric 7 or 8"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/Collection.ts",
+            "line": 19,
+            "cwe": "CWE-",
+            "snippet": "* @TODO needs to end up in the constructor too"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/Intersection.ts",
+            "line": 210,
+            "cwe": "CWE-",
+            "snippet": "* @todo account for stroke"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/Point.ts",
+            "line": 348,
+            "cwe": "CWE-",
+            "snippet": "// TODO benchmark and verify the add and subtract how much cost"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/brushes/BaseBrush.spec.ts",
+            "line": 8,
+            "cwe": "CWE-",
+            "snippet": "// @ts-expect-error -- TODO: not sure if we need this test since this is an abstract class and only derivative classes are instantiated"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/brushes/BaseBrush.ts",
+            "line": 64,
+            "cwe": "CWE-",
+            "snippet": "* @todo add type"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/brushes/PencilBrush.ts",
+            "line": 254,
+            "cwe": "CWE-",
+            "snippet": "// TODO investigate why this is not i < l"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/Canvas-dispose.spec.ts",
+            "line": 269,
+            "cwe": "CWE-",
+            "snippet": "// TODO: check typings, because this runs for both static and normal canvas but it is only typed on normal canvas"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/Canvas-events.spec.ts",
+            "line": 270,
+            "cwe": "CWE-",
+            "snippet": "// TODO: fix this, for some reason first target on mouse down is active selection and then second target is the green rectangle"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/Canvas.spec.ts",
+            "line": 1341,
+            "cwe": "CWE-",
+            "snippet": "// TODO (kangax): need to test this method with fabric.Path to ensure that path is not populated"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/Canvas.ts",
+            "line": 107,
+            "cwe": "CWE-",
+            "snippet": "* @todo inspect whether {@link _draggedoverTarget} and {@link _dropTarget} should be merged somehow"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/SelectableCanvas.ts",
+            "line": 440,
+            "cwe": "CWE-",
+            "snippet": "// todo: how do i know if the after:render is for the top or normal contex?"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/StaticCanvas.spec.ts",
+            "line": 448,
+            "cwe": "CWE-",
+            "snippet": "// TODO: was also commented out prior to vitest migration"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/StaticCanvas.ts",
+            "line": 91,
+            "cwe": "CWE-",
+            "snippet": "// TODO: fix `EventSpec` inheritance https://github.com/microsoft/TypeScript/issues/26154#issuecomment-1366616260"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/StaticCanvasOptions.ts",
+            "line": 10,
+            "cwe": "CWE-",
+            "snippet": "* @todo we should really find a different way to do this"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/controls/Control-handlers.spec.ts",
+            "line": 29,
+            "cwe": "CWE-",
+            "snippet": "// TODO: this method is deprecated and jsdoc says that it should have disappeared before fabric 4?"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/controls/Control.ts",
+            "line": 209,
+            "cwe": "CWE-",
+            "snippet": "// TODO: locking logic can be handled here instead of in the control handler logic"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/controls/controlRendering.ts",
+            "line": 55,
+            "cwe": "CWE-",
+            "snippet": "// TODO: use proper ellipse code."
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/controls/rotate.ts",
+            "line": 76,
+            "cwe": "CWE-",
+            "snippet": "// TODO: why aren't we using set?"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/filters/BlendImage.ts",
+            "line": 190,
+            "cwe": "CWE-",
+            "snippet": "* TODO: Handle the possibility of missing image better."
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/filters/Resize.ts",
+            "line": 12,
+            "cwe": "CWE-",
+            "snippet": "export type TResizeType = 'bilinear' | 'hermite' | 'sliceHack' | 'lanczos';"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/gradient/Gradient.ts",
+            "line": 206,
+            "cwe": "CWE-",
+            "snippet": "// todo what about polygon/polyline?"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/gradient/typedefs.ts",
+            "line": 70,
+            "cwe": "CWE-",
+            "snippet": "* @todo rename?"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/LayoutManager/LayoutManager.ts",
+            "line": 166,
+            "cwe": "CWE-",
+            "snippet": "// @TODO: gate the registration when the group is interactive"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 49,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "lib/event.js",
+            "line": 17,
+            "cwe": "CWE-319",
+            "snippet": "http://www.w3.org/TR/2011/WD-touch-events-20110505/"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/constants.ts",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "/* \"magic number\" for bezier approximations of arcs (http://itc.ktu.lt/itc354/Riskus354.pdf) */"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/Intersection.spec.ts",
+            "line": 23,
+            "cwe": "CWE-319",
+            "snippet": "<svg width=\"200\" height=\"200\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/Observable.ts",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/fabric-intro-part-2#events}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/Shadow.ts",
+            "line": 115,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/shadows|Shadow demo}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/brushes/BaseBrush.ts",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/freedrawing|Freedrawing demo}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/Canvas.fixtures.ts",
+            "line": 196,
+            "cwe": "CWE-319",
+            "snippet": "sourcePath: 'http://example.com/',"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/Canvas.spec.ts",
+            "line": 1251,
+            "cwe": "CWE-319",
+            "snippet": "sourcePath: 'http://example.com/',"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/SelectableCanvas.ts",
+            "line": 84,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/fabric-intro-part-1#canvas}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/StaticCanvas.fixtures.ts",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "'<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\\n' +"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/StaticCanvas.spec.ts",
+            "line": 991,
+            "cwe": "CWE-319",
+            "snippet": "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/canvas/StaticCanvas.ts",
+            "line": 84,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/static_canvas|StaticCanvas demo}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/color/Color.ts",
+            "line": 16,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/fabric-intro-part-2#colors colors}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/filters/ColorMatrix.ts",
+            "line": 22,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/image-filters|ImageFilters demo}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/filters/Convolute.ts",
+            "line": 17,
+            "cwe": "CWE-319",
+            "snippet": "* Adapted from <a href=\"http://www.html5rocks.com/en/tutorials/canvas/imagefilters/\">html5rocks article</a>"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/gradient/Gradient.ts",
+            "line": 30,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/fabric-intro-part-2#gradients}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/mixins/eraser_brush.mixin.ts",
+            "line": 31,
+            "cwe": "CWE-319",
+            "snippet": "* @see {@link http://fabric5.fabricjs.com/erasing#erasable_property}"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/parser/constants.ts",
+            "line": 12,
+            "cwe": "CWE-319",
+            "snippet": "export const svgNS = 'http://www.w3.org/2000/svg';"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/parser/elements_parser.spec.ts",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "return `<svg width=\"${size}\" height=\"${size}\" viewBox=\"0 0 ${size} ${size}\" xmlns=\"http://www.w3.org/2000/svg\">"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/parser/getCSSRules.spec.ts",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "await loadSVGFromString(`<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" viewBox=\"0 0 4439.1 3733\" xml:space=\"preserve\"><style>"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/parser/getMultipleNodes.ts",
+            "line": 13,
+            "cwe": "CWE-319",
+            "snippet": "'http://www.w3.org/2000/svg',"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/parser/loadSVGFromString.test.ts",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\\"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/parser/parseAttributes.ts",
+            "line": 56,
+            "cwe": "CWE-319",
+            "snippet": "// (see: http://www.w3.org/TR/SVG/styling.html#UsingPresentationAttributes)"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/parser/parser.spec.ts",
+            "line": 361,
+            "cwe": "CWE-319",
+            "snippet": "'<?xml version=\"1.0\" standalone=\"no\"?><svg width=\"100%\" height=\"100%\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">' +"
+          },
+          {
+            "severity": "low",
+            "file": "packages/core/src/parser/parseSVGDocument.ts",
+            "line": 56,
+            "cwe": "CWE-319",
+            "snippet": "return isValidSvgTag(el) && !hasInvalidAncestor(el); // http://www.w3.org/TR/SVG/struct.html#DefsElement"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "packages/core/src/parser/loadSVGFromURL.ts",
+            "line": 26,
+            "cwe": "CWE-918",
+            "snippet": "return fetch(url.replace(/^\\n\\s*/, '').trim(), {"
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 1,
+    "files_with_findings": 1,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 1
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "packages/core/src/color/util.ts",
+            "line": 52,
+            "cwe": "CWE-",
+            "snippet": "h = s = 0; // achromatic"
+          }
+        ]
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:963518a1-c43c-5a8c-a845-36f59b199e13",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T15:26:32Z",
+      "component": {
+        "type": "application",
+        "name": "FABRIC_JS",
+        "version": "39471c7a379c",
+        "bom-ref": "pkg:generic/anticloud/FABRIC_JS@39471c7a379c",
+        "purl": "pkg:generic/anticloud/FABRIC_JS@39471c7a379c",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "39471c7a379c08347841f4282dd3940b49ed4c71"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/fabricjs/fabric.js.git"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@fabricjs/aligning-guidelines",
+        "version": "workspace:^",
+        "purl": "pkg:npm/@fabricjs/aligning-guidelines@workspace:^",
+        "bom-ref": "npm/@fabricjs/aligning-guidelines@workspace:^"
+      },
+      {
+        "type": "library",
+        "name": "@fabricjs/browser",
+        "version": "workspace:^",
+        "purl": "pkg:npm/@fabricjs/browser@workspace:^",
+        "bom-ref": "npm/@fabricjs/browser@workspace:^"
+      },
+      {
+        "type": "library",
+        "name": "@fabricjs/cropping-controls",
+        "version": "workspace:^",
+        "purl": "pkg:npm/@fabricjs/cropping-controls@workspace:^",
+        "bom-ref": "npm/@fabricjs/cropping-controls@workspace:^"
+      },
+      {
+        "type": "library",
+        "name": "@fabricjs/data-updaters",
+        "version": "workspace:^",
+        "purl": "pkg:npm/@fabricjs/data-updaters@workspace:^",
+        "bom-ref": "npm/@fabricjs/data-updaters@workspace:^"
+      },
+      {
+        "type": "library",
+        "name": "@fabricjs/gradient-controls",
+        "version": "workspace:^",
+        "purl": "pkg:npm/@fabricjs/gradient-controls@workspace:^",
+        "bom-ref": "npm/@fabricjs/gradient-controls@workspace:^"
+      },
+      {
+        "type": "library",
+        "name": "@fabricjs/westures-integration",
+        "version": "workspace:^",
+        "purl": "pkg:npm/@fabricjs/westures-integration@workspace:^",
+        "bom-ref": "npm/@fabricjs/westures-integration@workspace:^"
+      },
+      {
+        "type": "library",
+        "name": "@eslint/js",
+        "version": "10.0.1",
+        "purl": "pkg:npm/@eslint/js@10.0.1",
+        "bom-ref": "npm/@eslint/js@10.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@playwright/test",
+        "version": "catalog:",
+        "purl": "pkg:npm/@playwright/test@catalog:",
+        "bom-ref": "npm/@playwright/test@catalog:"
+      },
+      {
+        "type": "library",
+        "name": "@types/jsdom",
+        "version": "catalog:",
+        "purl": "pkg:npm/@types/jsdom@catalog:",
+        "bom-ref": "npm/@types/jsdom@catalog:"
+      },
+      {
+        "type": "library",
+        "name": "@types/micromatch",
+        "version": "4.0.10",
+        "purl": "pkg:npm/@types/micromatch@4.0.10",
+        "bom-ref": "npm/@types/micromatch@4.0.10"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "catalog:",
+        "purl": "pkg:npm/@types/node@catalog:",
+        "bom-ref": "npm/@types/node@catalog:"
+      },
+      {
+        "type": "library",
+        "name": "@vitest/browser-playwright",
+        "version": "5.0.1",
+        "purl": "pkg:npm/@vitest/browser-playwright@5.0.1",
+        "bom-ref": "npm/@vitest/browser-playwright@5.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@vitest/coverage-v8",
+        "version": "5.0.1",
+        "purl": "pkg:npm/@vitest/coverage-v8@5.0.1",
+        "bom-ref": "npm/@vitest/coverage-v8@5.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@vitest/ui",
+        "version": "5.0.1",
+        "purl": "pkg:npm/@vitest/ui@5.0.1",
+        "bom-ref": "npm/@vitest/ui@5.0.1"
+      },
+      {
+        "type": "library",
+        "name": "commander",
+        "version": "15.0.0",
+        "purl": "pkg:npm/commander@15.0.0",
+        "bom-ref": "npm/commander@15.0.0"
+      },
+      {
+        "type": "library",
+        "name": "es-toolkit",
+        "version": "1.52.0",
+        "purl": "pkg:npm/es-toolkit@1.52.0",
+        "bom-ref": "npm/es-toolkit@1.52.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint",
+        "version": "10.11.0",
+        "purl": "pkg:npm/eslint@10.11.0",
+        "bom-ref": "npm/eslint@10.11.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-config-prettier",
+        "version": "10.1.8",
+        "purl": "pkg:npm/eslint-config-prettier@10.1.8",
+        "bom-ref": "npm/eslint-config-prettier@10.1.8"
+      },
+      {
+        "type": "library",
+        "name": "husky",
+        "version": "9.1.7",
+        "purl": "pkg:npm/husky@9.1.7",
+        "bom-ref": "npm/husky@9.1.7"
+      },
+      {
+        "type": "library",
+        "name": "lint-staged",
+        "version": "17.5.1",
+        "purl": "pkg:npm/lint-staged@17.5.1",
+        "bom-ref": "npm/lint-staged@17.5.1"
+      },
+      {
+        "type": "library",
+        "name": "micromatch",
+        "version": "4.0.8",
+        "purl": "pkg:npm/micromatch@4.0.8",
+        "bom-ref": "npm/micromatch@4.0.8"
+      },
+      {
+        "type": "library",
+        "name": "oxfmt",
+        "version": "0.68.0",
+        "purl": "pkg:npm/oxfmt@0.68.0",
+        "bom-ref": "npm/oxfmt@0.68.0"
+      },
+      {
+        "type": "library",
+        "name": "rolldown",
+        "version": "1.2.9",
+        "purl": "pkg:npm/rolldown@1.2.9",
+        "bom-ref": "npm/rolldown@1.2.9"
+      },
+      {
+        "type": "library",
+        "name": "tsc-files",
+        "version": "1.1.4",
+        "purl": "pkg:npm/tsc-files@1.1.4",
+        "bom-ref": "npm/tsc-files@1.1.4"
+      },
+      {
+        "type": "library",
+        "name": "typedoc",
+        "version": "catalog:",
+        "purl": "pkg:npm/typedoc@catalog:",
+        "bom-ref": "npm/typedoc@catalog:"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "catalog:",
+        "purl": "pkg:npm/typescript@catalog:",
+        "bom-ref": "npm/typescript@catalog:"
+      },
+      {
+        "type": "library",
+        "name": "typescript-eslint",
+        "version": "8.70.0",
+        "purl": "pkg:npm/typescript-eslint@8.70.0",
+        "bom-ref": "npm/typescript-eslint@8.70.0"
+      },
+      {
+        "type": "library",
+        "name": "vitest",
+        "version": "5.0.1",
+        "purl": "pkg:npm/vitest@5.0.1",
+        "bom-ref": "npm/vitest@5.0.1"
+      },
+      {
+        "type": "library",
+        "name": "westures",
+        "version": "catalog:",
+        "purl": "pkg:npm/westures@catalog:",
+        "bom-ref": "npm/westures@catalog:"
+      },
+      {
+        "type": "library",
+        "name": "@fabricjs/node",
+        "version": "workspace:^",
+        "purl": "pkg:npm/@fabricjs/node@workspace:^",
+        "bom-ref": "npm/@fabricjs/node@workspace:^"
+      },
+      {
+        "type": "library",
+        "name": "@fabricjs/core",
+        "version": "workspace:^",
+        "purl": "pkg:npm/@fabricjs/core@workspace:^",
+        "bom-ref": "npm/@fabricjs/core@workspace:^"
+      },
+      {
+        "type": "library",
+        "name": "fabric",
+        "version": "workspace:*",
+        "purl": "pkg:npm/fabric@workspace:*",
+        "bom-ref": "npm/fabric@workspace:*"
+      },
+      {
+        "type": "library",
+        "name": "vite",
+        "version": "8.3.1",
+        "purl": "pkg:npm/vite@8.3.1",
+        "bom-ref": "npm/vite@8.3.1"
+      },
+      {
+        "type": "library",
+        "name": "canvas",
+        "version": "catalog:",
+        "purl": "pkg:npm/canvas@catalog:",
+        "bom-ref": "npm/canvas@catalog:"
+      },
+      {
+        "type": "library",
+        "name": "jsdom",
+        "version": "catalog:",
+        "purl": "pkg:npm/jsdom@catalog:",
+        "bom-ref": "npm/jsdom@catalog:"
+      },
+      {
+        "type": "library",
+        "name": "@astrojs/check",
+        "version": "0.9.10",
+        "purl": "pkg:npm/@astrojs/check@0.9.10",
+        "bom-ref": "npm/@astrojs/check@0.9.10"
+      },
+      {
+        "type": "library",
+        "name": "@astrojs/mdx",
+        "version": "8.0.2",
+        "purl": "pkg:npm/@astrojs/mdx@8.0.2",
+        "bom-ref": "npm/@astrojs/mdx@8.0.2"
+      },
+      {
+        "type": "library",
+        "name": "@astrojs/react",
+        "version": "7.0.0",
+        "purl": "pkg:npm/@astrojs/react@7.0.0",
+        "bom-ref": "npm/@astrojs/react@7.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@astrojs/sitemap",
+        "version": "3.7.4",
+        "purl": "pkg:npm/@astrojs/sitemap@3.7.4",
+        "bom-ref": "npm/@astrojs/sitemap@3.7.4"
+      },
+      {
+        "type": "library",
+        "name": "@astrojs/starlight",
+        "version": "0.42.4",
+        "purl": "pkg:npm/@astrojs/starlight@0.42.4",
+        "bom-ref": "npm/@astrojs/starlight@0.42.4"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-javascript",
+        "version": "6.2.5",
+        "purl": "pkg:npm/@codemirror/lang-javascript@6.2.5",
+        "bom-ref": "npm/@codemirror/lang-javascript@6.2.5"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/state",
+        "version": "6.7.1",
+        "purl": "pkg:npm/@codemirror/state@6.7.1",
+        "bom-ref": "npm/@codemirror/state@6.7.1"
+      },
+      {
+        "type": "library",
+        "name": "@types/react",
+        "version": "19.3.0",
+        "purl": "pkg:npm/@types/react@19.3.0",
+        "bom-ref": "npm/@types/react@19.3.0"
+      },
+      {
+        "type": "library",
+        "name": "@types/react-dom",
+        "version": "19.3.0",
+        "purl": "pkg:npm/@types/react-dom@19.3.0",
+        "bom-ref": "npm/@types/react-dom@19.3.0"
+      },
+      {
+        "type": "library",
+        "name": "astro",
+        "version": "7.3.5",
+        "purl": "pkg:npm/astro@7.3.5",
+        "bom-ref": "npm/astro@7.3.5"
+      },
+      {
+        "type": "library",
+        "name": "codemirror",
+        "version": "6.0.2",
+        "purl": "pkg:npm/codemirror@6.0.2",
+        "bom-ref": "npm/codemirror@6.0.2"
+      },
+      {
+        "type": "library",
+        "name": "prettier",
+        "version": "3.9.6",
+        "purl": "pkg:npm/prettier@3.9.6",
+        "bom-ref": "npm/prettier@3.9.6"
+      },
+      {
+        "type": "library",
+        "name": "react",
+        "version": "19.2.8",
+        "purl": "pkg:npm/react@19.2.8",
+        "bom-ref": "npm/react@19.2.8"
+      },
+      {
+        "type": "library",
+        "name": "react-dom",
+        "version": "19.2.8",
+        "purl": "pkg:npm/react-dom@19.2.8",
+        "bom-ref": "npm/react-dom@19.2.8"
+      },
+      {
+        "type": "library",
+        "name": "sharp",
+        "version": "0.35.4",
+        "purl": "pkg:npm/sharp@0.35.4",
+        "bom-ref": "npm/sharp@0.35.4"
+      },
+      {
+        "type": "library",
+        "name": "starlight-typedoc",
+        "version": "0.23.1",
+        "purl": "pkg:npm/starlight-typedoc@0.23.1",
+        "bom-ref": "npm/starlight-typedoc@0.23.1"
+      },
+      {
+        "type": "library",
+        "name": "thememirror",
+        "version": "2.0.1",
+        "purl": "pkg:npm/thememirror@2.0.1",
+        "bom-ref": "npm/thememirror@2.0.1"
+      },
+      {
+        "type": "library",
+        "name": "typedoc-plugin-no-inherit",
+        "version": "1.6.1",
+        "purl": "pkg:npm/typedoc-plugin-no-inherit@1.6.1",
+        "bom-ref": "npm/typedoc-plugin-no-inherit@1.6.1"
+      },
+      {
+        "type": "library",
+        "name": "typedoc-plugin-markdown",
+        "version": "4.13.1",
+        "purl": "pkg:npm/typedoc-plugin-markdown@4.13.1",
+        "bom-ref": "npm/typedoc-plugin-markdown@4.13.1"
+      }
+    ]
+  },
+  "elapsed_seconds": 49.74
+}
